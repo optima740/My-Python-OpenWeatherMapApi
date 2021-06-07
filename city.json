@@ -1,0 +1,10 @@
+{
+  "cities": [{"city": "Petersburg"},
+              {"city": "Volgograd"},
+              {"city": "Moscow"},
+              {"city": "New York"},
+              {"city": "London"},
+              {"city": "Paris"},
+              {"city": "Oslo"},
+              {"city": "Samsung"}]
+}

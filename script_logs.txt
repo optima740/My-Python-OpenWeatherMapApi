@@ -1,0 +1,60 @@
+
+
+INFO:root:start script
+ERROR:root:invalid input file 'city.json' !
+INFO:root:stop script 
+
+
+INFO:root:start script
+ERROR:root:invalid input file 'city.json' !
+INFO:root:stop script 
+
+
+INFO:root:start script
+INFO:root:start script
+ERROR:root:invalid input file 'city.json' !
+INFO:root:stop script 
+
+
+INFO:root:start script
+INFO:root:response code = 200
+INFO:root:city: 'Petersburg' - found
+INFO:root:response code = 200
+INFO:root:city: 'Volgograd' - found
+INFO:root:response code = 200
+INFO:root:city: 'Moscow' - found
+INFO:root:response code = 200
+INFO:root:city: 'New York' - found
+INFO:root:response code = 200
+INFO:root:city: 'London' - found
+INFO:root:response code = 200
+INFO:root:city: 'Paris' - found
+INFO:root:response code = 200
+INFO:root:city: 'Oslo' - found
+ERROR:root:response code is 404, city: 'Samsung' - not found !
+INFO:root:stop script 
+
+
+INFO:root:start script
+INFO:root:stop script 
+
+
+INFO:root:start script
+INFO:root:response code = 200
+INFO:root:city: 'Petersburg' - found
+INFO:root:response code = 200
+INFO:root:city: 'Volgograd' - found
+INFO:root:response code = 200
+INFO:root:city: 'Moscow' - found
+INFO:root:response code = 200
+INFO:root:city: 'New York' - found
+INFO:root:response code = 200
+INFO:root:city: 'London' - found
+INFO:root:response code = 200
+INFO:root:city: 'Paris' - found
+INFO:root:response code = 200
+INFO:root:city: 'Oslo' - found
+ERROR:root:response code is 404, city: 'Samsung' - not found !
+INFO:root:stop script 
+
+
