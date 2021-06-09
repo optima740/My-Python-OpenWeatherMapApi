@@ -27,7 +27,6 @@ with open('city.json', 'r', encoding='utf-8') as file:
 			data = response.json()
 			if response.status_code == 200:
 				logging.info(f"response code = {response.status_code}")
-				#if data['cod'] == 200:
 				logging.info(f"city: '{city}' - found")
 				my_list.append((data['name'],
 								data['main']['temp'],
@@ -36,8 +35,6 @@ with open('city.json', 'r', encoding='utf-8') as file:
 								data['main']['pressure'],
 								data['main']['humidity'],
 								data['wind']['speed']))
-				#else:
-					#logging.error(f"")
 			else:
 				logging.error(f"response code is {response.status_code}, city: '{city}' - not found !")
 			response.close()
