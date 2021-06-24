@@ -3,9 +3,11 @@ import json
 import logging
 import requests
 import openpyxl
+import time
+
 
 logging.basicConfig(filename='script_logs.txt', level=logging.INFO)
-logging.info("start script")
+logging.info(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} start script")
 config_file = 'config.ini'
 config = ConfigParser()
 config.read(config_file)
@@ -15,7 +17,7 @@ with open('city.json', 'r', encoding='utf-8') as file:
 		input_data = json.load(file)
 		verify_input_data = input_data['cities']
 	except Exception as e:
-		logging.error(f"invalid input file 'city.json' !")
+		logging.error(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} invalid input file 'city.json' !")
 	else:
 		wb = openpyxl.Workbook()
 		my_list = wb.active
@@ -26,8 +28,9 @@ with open('city.json', 'r', encoding='utf-8') as file:
 			response = requests.get("http://api.openweathermap.org/data/2.5/weather", params=params)
 			data = response.json()
 			if response.status_code == 200:
-				logging.info(f"response code = {response.status_code}")
-				logging.info(f"city: '{city}' - found")
+				logging.info(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} "
+							 f"response code = {response.status_code}")
+				logging.info(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} city: '{city}' - found")
 				my_list.append((data['name'],
 								data['main']['temp'],
 								data['main']['temp_min'],
@@ -36,9 +39,10 @@ with open('city.json', 'r', encoding='utf-8') as file:
 								data['main']['humidity'],
 								data['wind']['speed']))
 			else:
-				logging.error(f"response code is {response.status_code}, city: '{city}' - not found !")
+				logging.error(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} response code is "
+							  f"{response.status_code}, city: '{city}' - not found !")
 			response.close()
 		wb.save('output_file.xlsx')
-logging.info("stop script \n\n")
+logging.info(f"{time.strftime('%a, %d-%b-%Y %T GMT', time.localtime())} stop script \n\n")
 
 

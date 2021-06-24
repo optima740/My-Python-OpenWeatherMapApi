@@ -1,60 +1,38 @@
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT start script
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'Petersburg' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'Volgograd' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'Moscow' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'New York' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'London' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'Paris' - found
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT city: 'Oslo' - found
+ERROR:root:Thu, 24-Jun-2021 12:05:43 GMT response code is 404, city: 'Samsung' - not found !
+INFO:root:Thu, 24-Jun-2021 12:05:43 GMT stop script 
 
 
-INFO:root:start script
-ERROR:root:invalid input file 'city.json' !
-INFO:root:stop script 
-
-
-INFO:root:start script
-ERROR:root:invalid input file 'city.json' !
-INFO:root:stop script 
-
-
-INFO:root:start script
-INFO:root:start script
-ERROR:root:invalid input file 'city.json' !
-INFO:root:stop script 
-
-
-INFO:root:start script
-INFO:root:response code = 200
-INFO:root:city: 'Petersburg' - found
-INFO:root:response code = 200
-INFO:root:city: 'Volgograd' - found
-INFO:root:response code = 200
-INFO:root:city: 'Moscow' - found
-INFO:root:response code = 200
-INFO:root:city: 'New York' - found
-INFO:root:response code = 200
-INFO:root:city: 'London' - found
-INFO:root:response code = 200
-INFO:root:city: 'Paris' - found
-INFO:root:response code = 200
-INFO:root:city: 'Oslo' - found
-ERROR:root:response code is 404, city: 'Samsung' - not found !
-INFO:root:stop script 
-
-
-INFO:root:start script
-INFO:root:stop script 
-
-
-INFO:root:start script
-INFO:root:response code = 200
-INFO:root:city: 'Petersburg' - found
-INFO:root:response code = 200
-INFO:root:city: 'Volgograd' - found
-INFO:root:response code = 200
-INFO:root:city: 'Moscow' - found
-INFO:root:response code = 200
-INFO:root:city: 'New York' - found
-INFO:root:response code = 200
-INFO:root:city: 'London' - found
-INFO:root:response code = 200
-INFO:root:city: 'Paris' - found
-INFO:root:response code = 200
-INFO:root:city: 'Oslo' - found
-ERROR:root:response code is 404, city: 'Samsung' - not found !
-INFO:root:stop script 
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT start script
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT city: 'Petersburg' - found
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT city: 'Volgograd' - found
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:26 GMT city: 'Moscow' - found
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT city: 'New York' - found
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT city: 'London' - found
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT city: 'Paris' - found
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT response code = 200
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT city: 'Oslo' - found
+ERROR:root:Thu, 24-Jun-2021 12:08:27 GMT response code is 404, city: 'Samsung' - not found !
+INFO:root:Thu, 24-Jun-2021 12:08:27 GMT stop script 
 
 
